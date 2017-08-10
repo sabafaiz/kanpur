@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style5.css">
+
+</head>
+
+<body>
+
+
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Kanpur Boot House</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>TOP CATEGORIES</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Brands</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li><a href="#">Puma</a></li>
+                        <li><a href="#">Adidas</a></li>
+                        <li><a href="#">Timberland</a></li>
+                        <li><a href="#">New Balance</a></li>
+                        <li><a href="#">Reebok</a></li>
+                        <li><a href="#">Aldo</a></li>
+                        <li><a href="#">Woodland</a></li>
+                        <li><a href="#">Catwalk</a></li>
+                        <li><a href="#">Clarks</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">New Arrivals</a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Women's Footwear</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li><a href="#">FLATS& Sandals</a></li>
+                        <li><a href="#">Heels</a></li>
+                        <li><a href="#">Boot</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Men's Footwear</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li><a href="#">Casual </a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Boot</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Kids's Footwear</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li><a href="#">Boy's Footwear </a></li>
+                        <li><a href="#">Girl's Footwear</a></li>
+                        <li><a href="#">Baby's Footwear</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+                        <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#" class="white-text">Cart<i class="fa fa-shopping-cart" aria-hidden="true"></a></i>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle white-text" data-toggle="dropdown" href="#"> Account
+                                        <i class="fa fa-user" aria-hidden="true"><span class="caret"></span></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">My Order</a></li>
+                                    <li><a href="#">Setting</a></li>
+                                    <li><a href="#">Log-Out</a></li>
+                                </ul>
+                            </li>
+
+
+                            <form class="navbar-form navbar-left">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </ul>
+
+
+                    </div>
+                </div>
+     </nav>
+
+            <section class="section-white">
+                <div class="container">
+
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="./slide1.jpg" alt="...">
+                                
+                            </div>
+                            <div class="item banner-img">
+                                <img src="./slide2.jpg" alt="...">
+                                
+                            </div>
+                            <div class="item">
+                                <img src="./slide3.jpg" alt="banner1" style="width:800px;height:400px;">
+                                
+                            </div>
+                             <div class="item">
+                                <img src="./slide4.jpg" alt="banner1" style="width:800px;height:400px;">
+                                
+                            </div>
+                             <div class="item">
+                                <img src="./slide5.jpg" alt="banner1" style="width:800px;height:400px;">
+                               
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+                    </div>
+
+                </div>
+            </section>
+
+            <div class="container">
+                <div class="row">
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+                    <div class="container">
+                        <div class="row ">
+                            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <!-- bootsnipp Circle Menu -->
+                            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5715866801509976" data-ad-slot="3922266447" data-ad-format="auto"></ins>
+                            <script>
+                                (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            <br>
+                            <br>
+                            <div class="col-lg-12">
+                                <div>
+
+
+                                    <div class="col-md-4">
+                                        <div class="profile-card text-center">
+
+                                            <img class="img-responsive" src="https://images.unsplash.com/photo-1454678904372-2ca94103eca4?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925">
+                                            <div class="profile-info">
+
+                                                <img class="profile-pic" src="https://pbs.twimg.com/profile_images/711000557742395396/jzm8hqwW.jpg">
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="profile-card text-center">
+
+                                            <img class="img-responsive" src="https://images.unsplash.com/photo-1451188502541-13943edb6acb?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925">
+                                            <div class="profile-info">
+
+                                                <img class="profile-pic" src="https://pbs.twimg.com/profile_images/711000557742395396/jzm8hqwW.jpg">
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="profile-card text-center">
+
+                                            <img class="img-responsive" src="https://images.unsplash.com/photo-1447877085163-3cce903855cd?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925">
+                                            <div class="profile-info">
+
+                                                <img class="profile-pic" src="https://pbs.twimg.com/profile_images/711000557742395396/jzm8hqwW.jpg">
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="profile-card text-center">
+
+                                            <img class="img-responsive" src="https://images.unsplash.com/photo-1447877085163-3cce903855cd?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925">
+                                            <div class="profile-info">
+
+                                                <img class="profile-pic" src="https://pbs.twimg.com/profile_images/711000557742395396/jzm8hqwW.jpg">
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="profile-card text-center">
+
+                                            <img class="img-responsive" src="https://images.unsplash.com/photo-1447877085163-3cce903855cd?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925">
+                                            <div class="profile-info">
+
+                                                <img class="profile-pic" src="https://pbs.twimg.com/profile_images/711000557742395396/jzm8hqwW.jpg">
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="profile-card text-center">
+
+                                            <img class="img-responsive" src="https://images.unsplash.com/photo-1447877085163-3cce903855cd?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925">
+                                            <div class="profile-info">
+
+                                                <img class="profile-pic" src="https://pbs.twimg.com/profile_images/711000557742395396/jzm8hqwW.jpg">
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="row footer-bg">
+                    <div class="col-md-12 col-sm">
+
+                    </div>
+                </div>
+            </footer>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

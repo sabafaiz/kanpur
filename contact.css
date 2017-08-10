@@ -1,0 +1,176 @@
+#contact {
+  padding: 10px 0 10px;
+}
+
+.contact-text {
+  margin: 45px auto;
+}
+
+.mail-message-area {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.mail-message {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8) !important;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  transition: all 0.7s;
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+.not-visible-message {
+  height: 0px;
+  opacity: 0;
+}
+
+.visible-message {
+  height: auto;
+  opacity: 1;
+  margin: 25px auto 0;
+}
+
+/* Input Styles */
+
+.form {
+  width: 100%;
+  padding: 15px;
+  background: #f8f8f8;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  margin-bottom: 25px;
+  color: #727272 !important;
+  font-size: 13px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.form:hover {
+  border: 1px solid #8BC3A3;
+}
+
+.form:focus {
+  color: white;
+  outline: none;
+  border: 1px solid #8BC3A3;
+}
+
+.textarea {
+  height: 200px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+/* Generic Button Styles */
+
+.button {
+  padding: 8px 12px;
+  background: #0A5175;
+  display: block;
+  width: 120px;
+  margin: 10px 0 0px 0;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  font-size: 0.8em;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.button:hover {
+  background: #8BC3A3;
+  color: white;
+}
+
+/* Send Button Styles */
+
+.form-btn {
+  width: 180px;
+  display: block;
+  height: auto;
+  padding: 15px;
+  color: #fff;
+  background: #8BC3A3;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: auto;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.form-btn:hover {
+  background: #111;
+  color: white;
+  border: none;
+}
+
+.form-btn:active {
+  opacity: 0.9;
+}
+center {
+  margin-top: 330px;
+}
+input {
+  position: relative;
+  z-index: 9999;
+}
+
+
+.header-bg{
+     height: 111px;
+    background: #47748b;
+}
+
+.map-content{
+     margin-top: 395px;
+}
+
+.nav-header{
+    background-color:#D9853B!important;
+    border-color: #d9853b!important;
+}
+  
+.search-btn{
+      height: 35px;
+}
+
+
+
+
+/*progess bar  */
+.bs-wizard {margin-top: 40px;}
+
+/*Form Wizard*/
+.bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
+.bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
+.bs-wizard > .bs-wizard-step + .bs-wizard-step {}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #595959; font-size: 16px; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-info {color: #999; font-size: 14px;}
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot {position: absolute; width: 30px; height: 30px; display: block; background: #fbe8aa; top: 45px; left: 50%; margin-top: -15px; margin-left: -15px; border-radius: 50%;} 
+.bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {content: ' '; width: 14px; height: 14px; background: #fbbd19; border-radius: 50px; position: absolute; top: 8px; left: 8px; } 
+.bs-wizard > .bs-wizard-step > .progress {position: relative; border-radius: 0px; height: 8px; box-shadow: none; margin: 20px 0;}
+.bs-wizard > .bs-wizard-step > .progress > .progress-bar {width:0px; box-shadow: none; background: #fbe8aa;}
+.bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {width:100%;}
+.bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {width:50%;}
+.bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {width:0%;}
+.bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {width: 100%;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {background-color: #f5f5f5;}
+.bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {opacity: 0;}
+.bs-wizard > .bs-wizard-step:first-child  > .progress {left: 50%; width: 50%;}
+.bs-wizard > .bs-wizard-step:last-child  > .progress {width: 50%;}
+.bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot{ pointer-events: none; }
+/*END Form Wizard*/
+
+h2{
+  color:black!important;
+}
